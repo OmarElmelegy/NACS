@@ -2,6 +2,8 @@
 
 This repository implements a full pipeline for ECG signal analysis and classification using Support Vector Machines (SVM). The pipeline covers:
 
+The provided data set can be downloaded from [here](https://github.com/mathworks/physionet_ECG_data)
+
 - **Dataset Construction:** Extracting 10-second ECG segments for three classes:
   - **NSR** (Normal Sinus Rhythm)
   - **CHF** (Congestive Heart Failure)
@@ -39,7 +41,7 @@ The classifiers are built using an RBF kernel, and hyperparameters (BoxConstrain
 ```
 ├── README.md                     # This file
 ├── NACS.m                        # Main MATLAB script implementing the pipeline
-├── ECGData.mat                   # Input ECG dataset (must be placed in the working directory)
+├── ECGData.mat                   # Input ECG dataset (must be downloaded from provided other repository and placed in the working directory)
 └── Selected_ECG_Segments.mat     # Generated dataset of ECG segments (saved by the script)
 ```
 
