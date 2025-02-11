@@ -114,10 +114,6 @@ Optimized NSR vs ARR parameters: BoxConstraint = 793.8773, KernelScale = 1.8598
 
 These metrics may vary based on the dataset and segmentation.
 
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgements
 
 - This project was inspired by research in ECG signal processing and classification.
